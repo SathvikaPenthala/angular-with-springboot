@@ -8,10 +8,6 @@ pipeline {
           }
         }
          
-          stage('Deploye ') {
-          steps{
-           sh 'pm2 restart all'
-          }
         stage('mvn test') {
           steps{
            sh 'mvn test'
