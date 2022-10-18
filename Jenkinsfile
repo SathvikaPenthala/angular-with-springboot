@@ -8,12 +8,12 @@ pipeline {
         }
          stage('npm install node module') {
           steps{
-           sh 'inpm install'
+           sh 'npm install'
           }
         }
         stage('buil') {
           steps{
-           sh 'inpm run build:ssr'
+           sh 'npm run build:ssr'
           }
         }
           stage('Deploye ') {
