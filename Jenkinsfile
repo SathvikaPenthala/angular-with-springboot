@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git Branch') {
           steps{
-           git branch :'master', git credentialsId: 'jenkins-key', url: 'git@github.com:SathvikaPenthala/angular-with-springboot.git'
+           git branch :'master', url: 'git@github.com:SathvikaPenthala/angular-with-springboot.git'
           }
         }
         
