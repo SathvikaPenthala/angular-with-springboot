@@ -6,5 +6,5 @@ pipeline {
            git branch :'master', git credentialsId: 'jenkins-key', url: 'git@github.com:SathvikaPenthala/angular-with-springboot.git'
           }
         }
-    
+    }
 }
