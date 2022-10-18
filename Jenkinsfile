@@ -1,8 +1,6 @@
 pipeline {
     agent any
-    tools {
-        node js '18.11.0'
-    }
+   tools {nodejs "node"}
     stages {
         stage('git Branch') {
           steps{
