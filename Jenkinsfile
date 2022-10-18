@@ -13,11 +13,7 @@ pipeline {
       }
     }
           
-    stage('Test') {
-      steps {
-         sh 'npm test'
-      }
-    }
+   
         stage('mvn clean') {
           steps{
            sh 'mvn clean'
