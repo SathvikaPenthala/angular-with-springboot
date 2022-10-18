@@ -18,9 +18,9 @@ pipeline {
          sh 'npm test'
       }
     }
-        stage('mvn test') {
+        stage('mvn clean') {
           steps{
-           sh 'mvn test'
+           sh 'mvn clean'
           }
         }
     }
