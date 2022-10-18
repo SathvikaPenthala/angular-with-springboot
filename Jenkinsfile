@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('git Branch') {
           steps{
-           git branch :'master', url: 'git@github.com:SathvikaPenthala/angular-with-springboot.git'
+           git branch :'master', url: 'git@github.com:SathvikaPenthala/node-todo-frontend.git'
           }
         }
          stage('Install dependencies') {
