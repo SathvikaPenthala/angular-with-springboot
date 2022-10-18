@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools{
+        node js '18.11.0'
+    }
     stages {
         stage('git Branch') {
           steps{
